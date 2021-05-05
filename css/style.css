@@ -1,0 +1,31 @@
+/* Personal Area */
+*{
+       box-sizing: border-box;
+       margin: 0;
+}
+
+#personal-area{
+       background-image: url('/img/lava.jpg');
+       height: 680px;
+       background-size: cover;
+       background-repeat: no-repeat;
+       position: relative;
+       background-position: center;
+};
+
+#personal-area .personal-single{
+       position: relative;
+       z-index: 3;
+}
+
+#personal-area .personal-text{
+       display: -webkit-box;
+       display: -ms-flexbox;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       width: 100%;
+       height: 680px;
+       text-align: center;
+}
+
